@@ -109,3 +109,35 @@ function calcularCociente() {
     
     console.log(res);
 }
+
+function suma() {
+    
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    
+    console.log(parseFloat(numero1)+parseFloat(numero2));
+}
+
+function resta() {
+    
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    
+    console.log(parseFloat(numero1)-parseFloat(numero2));
+}
+
+function multiplicacion() {
+    
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    
+    console.log(parseFloat(numero1)*parseFloat(numero2));
+}
+
+function division() {
+    
+    let numero1 = document.getElementById("num1").value;
+    let numero2 = document.getElementById("num2").value;
+    
+    console.log(parseFloat(numero1)/parseFloat(numero2));
+}
